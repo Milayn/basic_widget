@@ -25,8 +25,11 @@ class MyApp extends StatelessWidget {
         color: Colors.deepOrange,
         alignment: Alignment.center,
         height: 120.0,
-        width: 310.0,
-        child: Text(keterangan),
+        width: 280.0,
+        child: Text(
+          keterangan,
+          style: TextStyle(color: Colors.white, fontSize: 15.0),
+        ),
       )
     ]);
   }
@@ -64,7 +67,7 @@ class MyApp extends StatelessWidget {
             Container(
               height: 200.0,
               child: GridView.count(
-                crossAxisSpacing: 5.0,
+                crossAxisSpacing: 2.0,
                 crossAxisCount: 5,
                 childAspectRatio: 9 / 24,
                 children: <Widget>[
