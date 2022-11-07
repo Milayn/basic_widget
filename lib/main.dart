@@ -25,7 +25,7 @@ class MyApp extends StatelessWidget {
         color: Colors.deepOrange,
         alignment: Alignment.center,
         height: 120.0,
-        width: 280.0,
+        width: 265.0,
         child: Text(
           keterangan,
           style: TextStyle(color: Colors.white, fontSize: 15.0),
